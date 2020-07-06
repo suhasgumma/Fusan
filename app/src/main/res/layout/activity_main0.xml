@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ola"
+    android:id="@+id/ll">
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#000"
+        android:alpha="0.45"
+        >
+
+    <DigitalClock
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="60sp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:textColor="#ffffff"
+        android:id="@+id/clock"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Try after the "
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="#ffffff"
+        android:id="@+id/des"/>
+
+
+    <com.andrognito.patternlockview.PatternLockView
+        android:id="@+id/pattern_lock_view"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        app:normalStateColor="@color/white"
+    app:correctStateColor="#91FFC6"
+    app:wrongStateColor="@color/pomegranate"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:id="@+id/key"/>
+
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.fusan">
+
+    <dist:module dist:instant="true" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/fusan_launcher96"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/fusan_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".drawer"
+            android:label="@string/title_activity_drawer"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".SignIn" />
+        <activity android:name=".AllFaces" />
+        <activity
+            android:windowSoftInputMode="adjustResize"
+            android:name=".SignUp" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".most_appeared" />
+        <activity android:name=".upload" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

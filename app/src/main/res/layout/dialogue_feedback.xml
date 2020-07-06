@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_marginBottom="3dp"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:text="@string/Criticism"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:layout_marginBottom="3dp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:text="nourish a man’s growth without destroying his"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_weight="1"
+            android:text="@string/root"/>
+
+    </LinearLayout>
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:numStars="5"
+        android:layout_marginTop="15dp"
+        android:theme="@style/RatingBar"
+        android:rating="4"/>
+
+    <EditText
+        android:id="@+id/feedback"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="18sp"
+        android:lines="3"/>
+
+</LinearLayout>

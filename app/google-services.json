@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1084231733580",
+    "firebase_url": "https://fusan-89831.firebaseio.com",
+    "project_id": "fusan-89831",
+    "storage_bucket": "fusan-89831.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1084231733580:android:a392b60e0a857b3ba97fe9",
+        "android_client_info": {
+          "package_name": "com.example.fusan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1084231733580-mlaah4cjn3vjcc7la4ivdu9v1d3daq59.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQ7VhYlsgj4suyOPpC8VVt60a2wyHV5aU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1084231733580-mlaah4cjn3vjcc7la4ivdu9v1d3daq59.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

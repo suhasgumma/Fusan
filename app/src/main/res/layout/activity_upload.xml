@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".upload"
+    android:id="@+id/screen"
+    android:background="#000"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:src="@drawable/pussles" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/progressBarHolder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:layout_marginTop="20dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="8dp"
+            app:cardBackgroundColor="#fff"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="15dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ProgressBar
+                    android:id="@+id/progress"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.2"
+                    android:layout_height="wrap_content"
+                    android:indeterminate="true"
+                    android:visibility="gone"
+                    android:background="@drawable/circular_progress"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/statuscard"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:layout_gravity="center"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_marginLeft="15dp"
+                    android:text="Ask Team Fusan To start the Server"/>
+
+                <TextView
+                    android:id="@+id/timeText"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.2"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#000"
+        android:layout_weight="0.8"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="0.33"
+            app:cardBackgroundColor="#fff"
+            app:cardCornerRadius="7dp"
+            app:cardElevation="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/serverConnection"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.25"
+                    android:textColor="#000"
+                    android:text="Establishing Connection......"
+                    android:textSize="22sp"
+                    android:layout_marginLeft="10dp"
+
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center|left"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.25"
+                    android:textSize="20sp"
+                    android:text="The Android Client establishes"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center|left"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.25"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp"
+                    android:text="connection with the Python"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center|left"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.25"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Server."
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center|left"/>
+
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="0.33"
+            app:cardBackgroundColor="#fff"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="15dp">
+
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/sendingFrames"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.25"
+                        android:text="Sending Video to Server......"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center|left"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.25"
+                        android:textSize="20sp"
+                        android:text="Convert the Video File to byte"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center|left"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.25"
+                        android:textSize="20sp"
+                        android:text="Array and stream it to server"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center|left"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.25"
+                        android:textSize="20sp"
+                        android:text="using TCP Protocol."
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center|left"
+                        android:layout_marginBottom="2dp"/>
+
+                </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="0.33"
+            app:cardBackgroundColor="#fff"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="15dp">
+
+        <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/algo"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.25"
+                        android:text="Running Algo........"
+                        android:textColor="#000"
+                        android:textSize="22sp"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center|left"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.25"
+                        android:textSize="20sp"
+                        android:text="An Algorithm written in Python is run"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center|left"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.25"
+                        android:textSize="20sp"
+                        android:text="to recognize the faces and calculate"
+
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center|left"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.25"
+                        android:text="the screen time of each person."
+                        android:textSize="20sp"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center|left"/>
+
+                </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:background="#000"
+        android:layout_marginBottom="10dp"
+        android:gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chooseVideo"
+            android:text="Choose"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/button_background"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/upload"
+            android:text="Upload"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:background="@drawable/button_background"/>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
