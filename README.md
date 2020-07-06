@@ -20,23 +20,23 @@ __App User Interface__
 
 | Splash Screen | SignIn |  SignUp |
 | ------------- | ------------- | ------------- |
-| <img src="Images/splashscreen.png" width=220 height=441> | <img src="Images/signIn.png" width=220 height=441> | <img src="Images/signUp.png" width=220 height=441> |
+| <img src="Images/splashscreen.png" width=240 height=506> | <img src="Images/signIn.png" width=240 height=506> | <img src="Images/signUp.png" width=240 height=506> |
 
 | DashBoard | Video Analysis Screen |  VA Screen 1 |
 | ------------- | ------------- | ------------- |
-| <img src="Images/dashboard.png" width=220 height=441> | <img src="Images/videoAnalysisScreen.png" width=220 height=441> | <img src="Images/VAScreen1.png" width=220 height=441> |
+| <img src="Images/dashboard.png" width=240 height=506> | <img src="Images/videoAnalysisScreen.png" width=240 height=506> | <img src="Images/VAScreen1.png" width=240 height=506> |
 
 | VA Screen 2 | Most Appeared Person | Person List |
 | ------------- | ------------- | ------------- |
-| <img src="Images/VAScreen2.png" width=220 height=441> | <img src="Images/result.png" width=220 height=441> | <img src="Images/results1.png" width=220 height=441> |
+| <img src="Images/VAScreen2.png" width=240 height=506> | <img src="Images/result.png" width=240 height=506> | <img src="Images/results1.png" width=240 height=506> |
 
 | Person List | Digital WellBeing | Lock Screen |
 | ------------- | ------------- | ------------- |
-| <img src="Images/results2.png" width=220 height=441> | <img src="Images/dwb.png" width=220 height=441> | <img src="Images/lockScreen.png" width=220 height=441> |
+| <img src="Images/results2.png" width=240 height=506> | <img src="Images/dwb.png" width=240 height=506> | <img src="Images/lockScreen.png" width=240 height=506> |
 
 | FeedBack Screen |
 | ------------- |
-| <img src="Images/review.png" width=220 height=441> |
+| <img src="Images/review.png" width=240 height=506> |
 
 
 
