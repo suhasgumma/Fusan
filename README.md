@@ -3,7 +3,7 @@
 An Android Application to process the screen time of each individual in a video.
 
 ADD ON:
-**A small Feature contributing to Digital WellBeing. Locks the screen until the given time. **
+****A small Feature contributing to Digital WellBeing. Locks the screen until the given time. ****
 
 
 
@@ -30,7 +30,7 @@ __App User Interface__
 | ------------- | ------------- | ------------- |
 | <img src="Images/VAScreen2.png" width=240 height=506> | <img src="Images/result.png" width=240 height=506> | <img src="Images/results1.png" width=240 height=506> |
 
-| Person List | Digital WellBeing | Lock Screen |
+| Person List | Digital WellBeing | Locked Screen |
 | ------------- | ------------- | ------------- |
 | <img src="Images/results2.png" width=240 height=506> | <img src="Images/dwb.png" width=240 height=506> | <img src="Images/lockScreen.png" width=240 height=506> |
 
